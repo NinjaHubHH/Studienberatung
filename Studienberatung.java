@@ -7,6 +7,11 @@ public class Studienberatung{
 		if (answerAbitur.equals("n")){
 			System.out.println("Hast du Fachabitur?");
 			String answerFachabitur = scanner.next();
+			String answer = scanner.next();
+		}
+		if (answer.equals("j")){
+			System.out.println("Bist du wissbegierig?");
+			String answerWissbegierig = scanner.next();
 		}
 	}
 }
