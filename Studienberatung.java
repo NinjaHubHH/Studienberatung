@@ -9,7 +9,7 @@ public class Studienberatung{
 			String answerFachabitur = scanner.next();
 			String answer = scanner.next();
 		}
-		if (answer.equals("j")){
+		if (answerAbitur.equals("j")){
 			System.out.println("Bist du wissbegierig?");
 			String answerWissbegierig = scanner.next();
 		}
